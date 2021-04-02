@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Week 4</title>
 </head>
+
 <body>
     <h1>My app 😀</h1>
     <div class="userinfo">
@@ -13,7 +15,8 @@
         <button id="submit_username" onclick="registerUser()">Submit</button>
     </div>
     <div class="userinfo">
-        <span id="user_message">You are currently not registered. Register to be able to see your drawings<br>Should be more than 2 characters</span><br>
+        <span id="user_message">You are currently not registered. Register to be able to see your drawings<br>Should be
+            more than 2 characters</span><br>
         <span id="last_drawer"></span>
     </div>
     <div>
@@ -75,8 +78,12 @@
             <br>
         </div>
         <div class="controlbar">
-            <label for="draw">Figure size</label><br>
-            <button onclick="draw()" disabled id="draw">Draw</button><br>
+            <label for="draw">Draw !</label><br>
+            <button onclick="draw()" disabled id="draw">Start</button><br>
+        </div>
+        <div class="controlbar">
+            <label for="draw">Save your draw (bellow the canvas)</label><br>
+            <button onclick="addimage()">Save</button><br>
         </div>
     </div>
 
@@ -84,8 +91,8 @@
 
     </canvas>
 </body>
+
 </html>
 
 <script src="../socket.io/socket.io.js"></script>
 <script src="script.js"></script>
-

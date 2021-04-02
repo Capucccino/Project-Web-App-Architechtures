@@ -1,5 +1,6 @@
 const canvas = document.getElementById('canvas')
-
+canvas.width  = 1000;
+canvas.height = 500;
 // initiating 2D context on it
 const c = canvas.getContext('2d')
 
@@ -185,6 +186,17 @@ function getStartingPoint(figSize, borderSize){
     let x = (Math.random()*(innerWidth - figSize - borderSize)) + borderSize
     let y = (Math.random()*(innerHeight - figSize - borderSize)) + borderSize
     return [x,y]
+}
+
+function addimage() { 
+    const canvas = document.getElementById('canvas');
+    const dataURL = canvas.toDataURL("image/png");
+    var img = document.createElement("img");
+    img.src = dataURL
+    img.height = 500; 
+    img.width = 1000;
+    document.body.appendChild(img);
+
 }
 
 //LINE

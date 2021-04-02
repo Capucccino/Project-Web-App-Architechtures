@@ -1,6 +1,5 @@
 const canvas = document.getElementById('canvas')
-canvas.width  = 1000;
-canvas.height = 500;
+
 // initiating 2D context on it
 const c = canvas.getContext('2d')
 

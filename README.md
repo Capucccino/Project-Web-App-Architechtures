@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/64537874/113522458-d6717d80-95a0-11eb-864a-d339368c4e80.png)
+![image](https://user-images.githubusercontent.com/64537874/113522471-e8ebb700-95a0-11eb-9b4e-d8a82c60c2bd.png)
 
 # Project-Web-App-Architechtures
 ## Table of contents

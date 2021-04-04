@@ -1,4 +1,5 @@
 # Project-Web-App-Architechtures
+![image](https://user-images.githubusercontent.com/64537874/113522420-a5914880-95a0-11eb-86ec-41647d9f8bc6.png)
 
 ## Table of contents
 * [Assignement 1](#Assignement-1)

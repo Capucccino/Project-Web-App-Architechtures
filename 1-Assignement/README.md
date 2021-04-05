@@ -1,7 +1,20 @@
-# Whiteboard
+## Assignement 1
 
-Before executing server.js, you must write the following command in your terminal:
+__Start the APP with Heroku :__
 
-    npm install
+Please click on this [link](https://waa-assignement-1.herokuapp.com/) to see the application online.
+You might need to register/create an account on [heroku](https://dashboard.heroku.com/) first.
 
-so that it will download all the node_modules
+__Start the APP manualy :__ 
+
+First download all the node_modules with the following command in your terminal :
+```
+npm install i
+```
+Then start the application with 
+```
+nodemon server.js
+```
+When started, you can find the applicaiton port [8080](http://localhost:8080) .
+
+## Assignement 3

@@ -2,5 +2,5 @@
 
 # Project-Web-App-Architechtures
 ## Table of contents
-* [Assignement1](#https://github.com/Capucccino/Project-Web-App-Architechtures/tree/master/1-Assignement)
-* [Assignement 3](#Assignement-3)
+* [Assignement1](https://github.com/Capucccino/Project-Web-App-Architechtures/tree/master/1-Assignement)
+* [Assignement 3](https://github.com/Capucccino/Project-Web-App-Architechtures/tree/master/3-Assignement)
